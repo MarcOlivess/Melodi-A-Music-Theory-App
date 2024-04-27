@@ -1,0 +1,120 @@
+<!-- quiz.html - When the quiz Link in pressed, it takes you to this page.-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Melodi: Learning Music Theory</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  </head>
+
+    <div class="container">
+      <header class="header">
+        <a href="index.html"
+          ><img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/10fd5204cd5e7c67eace836ce88420b82700cb27ade0e2e8655e2f3dd6667043?apiKey=ed9381361b0a41f9b47ca1eb51259dcc&"
+            alt="Company logo"
+            class="logo"
+        /></a>
+      </header>
+      <main class="main-content">
+        <aside class="sidebar">
+          <div class="sidebar-content">
+            <div class="sidebar-column">
+              <nav class="sidebar-menu">
+                <a href="play.html" class="menuNonclicked">Play</a>
+                <a href="learn.html" class="menuNonclicked">Learn</a>
+                <a href="chat.html" class="menuNonclicked">Chat</a>
+                <a href="leaderboard.html" class="menuNonclicked"
+                  >Leaderboard</a
+                >
+                <a href="profile.html" class="menuNonclicked">Profile</a>
+              </nav>
+            </div>
+            <div class="main-column">
+              <div class="main-content-wrapper">
+                <div class="title-text">Assessments Based on Lectures</div>
+                <div class="main-content-divider"></div>
+
+                <div class="main-content-body">
+                  <div class="quiz-content">
+                    <div class="quiz-version">
+                        <div class="quiz-info">
+                            <a href="quizOne.html">Assessment One: The staff</a>
+                            <p>
+                                <span>Best Score(%):</span>
+                                <span class="q-onescore">0</span>
+                                <div class="progress-bar">
+                                <div class="progress-one"></div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="quiz-version">
+                        <div class="quiz-info">
+                            <a href="quizTwo.html">Assessment Two: Notes and Duration</a>
+                            <p>
+                                <span>Best Score(%):</span>
+                                <span class="q-twoscore">0</span>
+                                <div class="progress-bar">
+                                <div class="progress-two"></div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="quiz-version">
+                        <div class="quiz-info">
+                            <a href="quizThree.html">Assessment three: Time Signatures</a>
+                            <p>
+                                <span>Best score(%):</span>
+                                <span class="q-threescore">0</span>
+                                <div class="progress-bar">
+                                <div class="progress-three"></div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="quiz-version">
+                        <div class="quiz-info">
+                            <a href="quizFour.html">Assessment Four: Rests</a>
+                            <p>
+                                <span>Best score(%):</span>
+                                <span class="q-fourscore">0</span>
+                                <div class="progress-bar">
+                                <div class="progress-four"></div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div class="quiz-version">
+                      <a href="lessonOne.html">Quiz four: Rests</a>
+                      <p>
+                        <span>Progress(%):</span>
+                        <span class="q-fourscore">0</span>
+                        <div class="progress-bar">
+                          <div class="progress"></div>
+                        </div>
+                      </p>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <div class="user-profile">
+          <div class="user-avatar">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/c281d02ff57597a8ea93a8efab0d5f3ba580e71b2446bbceea23901d28483257?apiKey=ed9381361b0a41f9b47ca1eb51259dcc&"
+              alt="User avatar"
+              class="user-avatar-image"
+            />
+          </div>
+          <div class="user-name">Name</div>
+        </div>
+      </main>
+    </div>
+    <script src="server.js"></script>
+    <script src="quizInfo.js"></script>
+
+</html>

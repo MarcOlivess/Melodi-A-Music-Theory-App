@@ -1,0 +1,54 @@
+<!-- profile.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Medlodi: Your Profile</title>
+  <link rel="stylesheet" href="profile.css">
+  <link href="https://fonts.googleapis.com/css?family=Arial" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="Full Logo.png" alt="Logo">
+      </a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="menu">
+      <a href="play.html">Play</a>
+      <a href="learn.html">Learn</a>
+      <a href="chat.html">Chat</a>
+      <a href="leaderboard.html">Leaderboard</a>
+      <a href="profile.html" class="active">Profile</a>
+    </div>
+    <div class="profile">
+      <div class="profile-header">
+        <h1>Profile</h1>
+      </div>
+      <div class="profile-info" style="border-top-style: solid;border-top-width: 10px;border-left-width: 10px;border-left-style: solid;border-right-width: 10px;border-right-style: solid;border-bottom-width: 10px;border-bottom-style: solid;">
+        <div class="profile-picture">
+          <img id="profilePic" src="" alt="Profile Picture">
+        </div>
+        <div class="profile-name">
+          <span id="username"></span>
+        </div>
+      </div>
+      <div class="profile-details" style="border-top-width: 10px;border-top-style: solid;border-left-width: 10px;border-left-style: solid;border-right-width: 10px;border-right-style: solid;border-bottom-width: 10px;border-bottom-style: solid;">
+        <div class="progress-container">
+          <span>Progress:</span>
+          <div class="progress-bar">
+            <div id="lessonProgress" class="progress"></div>
+          </div>
+        </div>
+        <p><span>Rank:</span> <span id="topRank"></span></p>
+        <p><span>Goal:</span> <span id="goal"></span></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>

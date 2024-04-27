@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Match One</title>
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="index.html"
+          ><img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/10fd5204cd5e7c67eace836ce88420b82700cb27ade0e2e8655e2f3dd6667043?apiKey=ed9381361b0a41f9b47ca1eb51259dcc&"
+            alt="Company logo"
+            class="logo"
+        /></a>
+      </header>
+      <h1>
+        Match 1: Match the term with the definition<br />Instruction: Drag the
+        Terms on the left to the correct definition on the right
+      </h1>
+      <div class="container-match">
+        <div class="left">
+          <h2>Terms:</h2>
+          <ul id="leftItems">
+            <li draggable="true" data-match="acc">Accidental</li>
+            <li draggable="true" data-match="ada">Adagio</li>
+            <li draggable="true" data-match="tem">A tempo</li>
+            <li draggable="true" data-match="gra">Grand Staff</li>
+            <li draggable="true" data-match="int">Intervals</li>
+          </ul>
+        </div>
+        <div class="right">
+          <h2>Definitions:</h2>
+          <ul id="rightItems">
+            <li data-match="ada" data-final="Correct: Adagio - Slow Tempo">
+              Slow Tempo
+            </li>
+            <li
+              data-match="acc"
+              data-final="Correct: Accidental - a sharp, flat or natural not included in the given key"
+            >
+              a sharp, flat or natural not included in the given key
+            </li>
+            <li
+              data-match="tem"
+              data-final="Correct: A tempo - Resume original speed"
+            >
+              Resume original speed
+            </li>
+            <li
+              data-match="int"
+              data-final="Correct: Intervals - distances between notes or keys"
+            >
+              distances between notes or keys
+            </li>
+            <li
+              data-match="gra"
+              data-final="Correct: Grand Staf - the bass staff and the treble staff joined together by a brace"
+            >
+              the bass staff and the treble staff joined together by a brace
+            </li>
+          </ul>
+        </div>
+
+        <!-- <button>Submit</button> -->
+      </div>
+      <div class="score-container">
+        <div class="score-match">
+          Score: <span class="total-score"></span><span>/5</span>
+        </div>
+        <button class="match-submit">Submit</button>
+      </div>
+    </div>
+    <script src="matching.js"></script>
+    <script src="server.js"></script>
+  </body>
+</html>

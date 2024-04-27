@@ -1,0 +1,541 @@
+body {
+  background-color: #fffbf9;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  font-family: "Fjalla One", sans-serif;
+}
+a,
+u {
+  text-decoration: none;
+}
+
+.div {
+  background-color: rgba(255, 247, 242, 1);
+  display: flex;
+  flex-direction: column;
+}
+.div-2 {
+  background-color: #6b1523;
+  min-height: 143px;
+  width: 100%;
+}
+
+.div-3 {
+  z-index: 10;
+  margin-top: -104px;
+  width: 100%;
+}
+
+.div-4 {
+  gap: 20px;
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 22%;
+  margin-left: 0px;
+}
+
+.div-5 {
+  background-color: rgba(172, 124, 90, 0.45);
+  display: flex;
+  margin-top: 104px;
+  flex-grow: 1;
+  flex-direction: column;
+  font-size: 48px;
+  color: #6b1523;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  padding: 43px 10px 80px;
+}
+
+.menuNonclicked {
+  text-decoration: none;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 35px;
+  border-radius: 30px;
+  border-color: #814040;
+  border-style: solid;
+  border-width: 5px;
+  background-color: #fffbfb;
+  align-items: center;
+  color: #6b1523;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 25px;
+  transition: 0.5s ease; /* transition effect */
+}
+.menuNonclicked:hover {
+  background-color: #6b1523;
+  color: #e9a1ad;
+}
+
+.menuClicked {
+  text-decoration: none;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 35px;
+  border-radius: 30px;
+  border-color: rgba(129, 64, 64, 1);
+  border-style: solid;
+  border-width: 5px;
+  background-color: #6b1523;
+  align-items: center;
+  color: #e9a1ad;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 25px;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 78%;
+  margin-left: 20px;
+}
+.div-11 {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-13 {
+  gap: 20px;
+  display: flex;
+}
+
+.column-3 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 80%;
+  margin-left: 0px;
+}
+
+.mainLogo {
+  aspect-ratio: 2.56;
+  object-position: left;
+  width:900px;
+  flex-grow: 1;
+}
+
+.textUnderLogo {
+  text-decoration: none;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 35px;
+  color: #8d8d8d;
+
+}
+
+
+.column-4 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 20%;
+  margin-left: 20px;
+}
+
+.div-14 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.div-15 {
+  border-radius: 50px;
+  border-color: rgba(107, 21, 35, 1);
+  border-style: solid;
+  border-width: 34px;
+  background-color: #897171;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.img-2 {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 192px;
+  max-width: 100%;
+}
+.div-16 {
+  color: #6b1523;
+  text-align: center;
+  align-self: center;
+  margin-top: 11px;
+  font: 400 48px Righteous, sans-serif;
+}
+
+.div-17 {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  margin: 68px 0 0 76px;
+}
+
+.div-18 {
+  color: #999;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.div-19 {
+  color: #939393;
+  font-family: "Fjalla One", sans-serif;
+  margin-top: 21px;
+}
+
+/* End of homepage code */
+
+/* Proper CS, convert home page later */
+
+.container {
+  background-color: #fffbf9;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #6b1523;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  aspect-ratio: 2.56;
+  object-fit: auto;
+  object-position: center;
+  width: 302px;
+  max-width: 60%;
+  padding-left: 20px;
+  alt: "Melodi logo";
+}
+
+.main-content {
+  background-color: #fffbf9;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.sidebar {
+  align-self: end;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+.sidebar-content {
+  gap: 20px;
+  display: flex;
+  background-color: #fffbf9;
+}
+
+.sidebar-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  margin-left: 0px;
+}
+
+.sidebar-menu {
+  background-color: #fffbf9;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  font-size: 48px;
+  color: #6b1523;
+  font-weight: 400;
+  text-align: center;
+  width: 220px;
+  padding: 12px 10px 80px;
+}
+
+.main-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 76%;
+  
+}
+
+.main-content-wrapper {
+  background-color: #fffbf9;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.main-content-header {
+  background-color: #fffbf9;
+  height: 80px;
+}
+
+.main-content-divider {
+  border: 4px solid rgba(151, 151, 151, 1);
+  background-color: #979797;
+
+  width: 100%;
+  max-width: 100%;
+  height: 4px;
+}
+
+.main-content-body {
+  background-color: #fffbf9;
+  height: 919px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.user-profile {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  margin-top: -80px;
+  margin-right: 10%;
+}
+
+.user-avatar {
+  border-radius: 50px;
+  border: 24px solid rgba(107, 21, 35, 1);
+  background-color: rgba(107, 21, 35, 1);
+  fill: rgba(107, 21, 35, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-avatar-image {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 120px;
+  alt: "User avatar";
+}
+
+.user-name {
+  color: #6b1523;
+  text-align: center;
+  align-self: center;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.title-text {
+  color: #6b1523;
+  text-align: center;
+  align-self: center;
+  font-size: 66px;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+}
+.game-2 {
+  width: 100%;
+}
+
+.game-row {
+  gap: 100px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.game-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin-left: 0px;
+}
+
+.game-button {
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-color: rgba(129, 64, 64, 1);
+  border-style: solid;
+  border-width: 6px;
+  background-color: #ffeae5;
+  align-items: center;
+  color: #550814;
+  font-size: 44px;
+  white-space: nowrap;
+  text-align: center;
+  width: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+
+  font-family: "Fjalla One", sans-serif;
+}
+
+.game-column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin-left: 20px;
+}
+
+.game-6 {
+  margin-top: 68px;
+  width: 100%;
+}
+
+.game-7 {
+  gap: 300px;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-right: 200px;
+}
+
+.game-column-3 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin-left: 20px;
+}
+
+.lesson {
+  text-decoration: none;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: left;
+  text-indent: 80px;
+  padding-top: 40px;
+}
+
+.lesson-button {
+  text-decoration: none;
+
+  color: #6b1523;
+  font-family: "Fjalla One", sans-serif;
+
+  border-radius: 50px;
+  border-color: #814040;
+  border-style: solid;
+  border-width: 7px;
+  background-color: #ffeae5;
+  width: 100%;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  transition: 0.5s ease; /* transition effect */
+}
+
+.lesson-button:hover {
+  background-color: #6b1523;
+  color: #e9a1ad;
+}
+
+.piano-container {
+  background-color: #fff7f2;
+}
+
+.quiz-version {
+  text-decoration: none;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: left;
+  text-indent: 80px;
+  padding-top: 40px;
+}
+
+.quiz-info {
+  text-decoration: none;
+
+  color: #6b1523;
+  font-family: "Fjalla One", sans-serif;
+
+  border-radius: 50px;
+  border-color: #814040;
+  border-style: solid;
+  border-width: 7px;
+  background-color: #ffeae5;
+  width: 100%;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  transition: 0.5s ease; /* transition effect */
+}
+
+.quiz-info:hover {
+  background-color: #6b1523;
+  color: #e9a1ad;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-one {
+  width: 0;
+  height: 100%;
+  background-color: green;
+  transition: width 0.5s ease;
+}
+
+.progress-two {
+  width: 0;
+  height: 100%;
+  background-color: green;
+  transition: width 0.5s ease;
+}
+.progress-three {
+  width: 0;
+  height: 100%;
+  background-color: green;
+  transition: width 0.5s ease;
+}
+.progress-four {
+  width: 0;
+  height: 100%;
+  background-color: green;
+  transition: width 0.5s ease;
+}
