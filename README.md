@@ -2,8 +2,8 @@
 
 A continuation of a univerity project, as found here https://github.com/MarcOlivess/MelodiPrototypeWeb
 
-The main goal after the original project was to remake pages as needed, and more fully flesh out my original idea for the site
-Design by Marc Olvera
+The main goal after the original project was to remake pages as needed, and more fully flesh out my original idea for the site.
+
 Various implimentations inspired from the original project as found above. 
 
 Current Project Designers:
