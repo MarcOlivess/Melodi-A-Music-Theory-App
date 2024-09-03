@@ -10,8 +10,6 @@ Current Project Designers:
 
     @MarcOlivess
     Marc Olvera
-    @johann370 
-    Johann Mendoza 
 
 
 Original Project Designers: 
