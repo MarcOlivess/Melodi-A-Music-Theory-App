@@ -54,7 +54,7 @@ Current Project Designers:
 Original Project Designers: 
 
     @MarcOlivess
-    Marc Olvera    - Original Design, Ui/Ux Design, Front End, Lessons, Lego Design
+    Marc Olvera    - Original Design, Ui/Ux Design, Front End, Lessons, Lego Design, Project Lead
     @FPolygon  
     Francis Pagulayan  -  Profile page, Identify Game, First log in
     @babtun123
